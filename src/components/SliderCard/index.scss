@@ -1,10 +1,25 @@
-.slider_carousel{
-    padding: 20px 0 0 80px;
-    // display: flex;
-    // justify-content: space-between;
-    outline: none;
-}
-.slick-prev:before,.slick-next:before{
+.slick-prev:before,
+.slick-next:before {
     font-size: 30px;
     color: black;
+}
+
+.slider {
+    &_carousel {
+        padding: 20px 0 0 80px;
+        // display: flex;
+        // justify-content: space-between;
+        outline: none;
+    }
+    &_personal{
+        padding: 70px 0px;
+       
+    }
+    &_title{
+        text-align: center;
+        color: red;
+        padding-bottom: 50px;
+        font-weight: 900;
+        font-size: 30px;
+    }
 }

@@ -6,14 +6,14 @@ import { FaFacebook } from 'react-icons/fa';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
   >
     <div className="header">
       <Link to="#" className="header_title">Portfolio</Link>
       <ul className="header_menu">
         <li><Link className="li" to="#">Home</Link></li>
-        <li><Link to="#">About</Link></li>
+        <li><Link to="#" activeClassName="active">About</Link></li>
         <li><Link to="#">Resume</Link></li>
         <li><Link to="#">Skills</Link></li>
         <li><Link to="#">Project</Link></li>

@@ -12,6 +12,7 @@ import SimpleSlider from "./SliderCard"
 
 import Header from "./header/index"
 import "./layout.css"
+import About from "./About/index"
 
 
 const Layout = ({ children }) => {
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
       <div
       >
         <main>{children}</main>
+        <About/>
         <SimpleSlider/>
         
         

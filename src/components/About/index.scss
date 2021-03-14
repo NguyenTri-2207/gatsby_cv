@@ -1,0 +1,121 @@
+/* about */
+.about {
+	padding: 70px 100px;
+	.about-name {
+		font-size: 40px;
+		font-weight: 700;
+		font-family: 'Poppins','sans-serif';
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.about-content {
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+	}
+}
+.about-text {
+	width: 55%;
+	font-family: 'Ubuntu','sans-serif';
+	font-weight: 500;
+	color: #837f7f;
+}
+.about-text1 {
+	color: #f33615;
+	font-size: 20px;
+}
+.about-text2 {
+	font-size: 30px;
+}
+.about-text3 {
+	color: #f33615;
+}
+.about-text4 {
+	border-bottom: 1px solid #837f7f;
+	padding-bottom: 10px;
+}
+.about-img {
+	background-image: url('../../images/avt.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 37%;
+	height: 470px;
+	border: 5px solid black;
+	border-radius: 5px;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+.about-icon {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 10px;
+}
+.info-item {
+	margin: 15px 0px;
+	i {
+		font-size: 20px;
+		margin-right: 5px;
+		text-align: center;
+		width: 25px;
+		color: #f33615;
+	}
+	label {
+		color: #0f0f0f;
+	}
+}
+.about-button {
+	a {
+		button {
+			width: 130px;
+			height: 40px;
+			background-color: #f33615;
+			border-radius: 5px;
+			border: none;
+			margin-top: 20px;
+			color: white;
+			margin-left: 10px;
+			font-weight: 500;
+			outline: none;
+			&:hover {
+				background-color: #d1a81f;
+				color: #0f0f0f;
+				cursor: pointer;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 567px) {
+	.about {
+		padding: 20px;
+		.about-name {
+			margin-bottom: 20px;
+			font-size: 30px;
+		}
+		.about-content {
+			display: block;
+			margin: auto;
+			width: 100%;
+		}
+	}
+	.about-img {
+		width: 100%;
+		height: 420px;
+		border: 5px solid black;
+		border-radius: 5px;
+	}
+	.about-text {
+		margin: 20px 0;
+		width: 100%;
+		font-family: 'Ubuntu','sans-serif';
+		font-weight: 400;
+		color: #363333;
+	}
+	.about-icon {
+		display: block;
+		padding-top: 10px;
+	}
+}
